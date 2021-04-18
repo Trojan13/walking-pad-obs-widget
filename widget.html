@@ -33,8 +33,8 @@
         stepEl.innerHTML = dataObj.step;
         calEl.innerHTML = dataObj.cal;
         timeEl.innerHTML = dataObj.time;
-        modeEl.innerHTML = Math.round(dataObj.dist * 100) / 100;
-        distEl.innerHTML = dataObj.mode;
+        distEl.innerHTML = Math.round(dataObj.dist * 100) / 100;
+        modeEl.innerHTML = dataObj.mode;
       };
 
       ws.onclose = function (e) {
