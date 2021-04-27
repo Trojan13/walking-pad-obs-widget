@@ -1,5 +1,6 @@
 # Walking Pad Stream Widget
 ![Screenshot of the widget](https://i.imgur.com/Muab187.png)
+![Screenshot of the small widget](https://i.imgur.com/pOLzp6E.png)
 
 
 
