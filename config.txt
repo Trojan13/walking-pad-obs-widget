@@ -1,3 +1,3 @@
 [walking-pad-twitch]
-token = "abcdefghijklmnopqrstuvwxyz123456789"
-ip = "192.168.0.1"
+token = 476e6b70343055483230644c53707a12
+ip = 192.168.1.2
