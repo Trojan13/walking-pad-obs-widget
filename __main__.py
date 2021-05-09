@@ -9,7 +9,6 @@ import sys
 import miio
 # Reader imports
 from miio import Walkingpad, DeviceException
-print(miio.__version__)
 
 
 async def getWalkingPadState(walkingpad):

@@ -4,11 +4,11 @@
 block_cipher = None
 
 
-a = Analysis(['D:/Bibliotheken/Desktop/Skripte/ginos-walking-pad/walking-pad-obs-widget/__main__.py'],
-             pathex=['D:/Bibliotheken/Desktop/Skripte/ginos-walking-pad/walking-pad-obs-widget/ginos-walking-pad/Lib/site-packages', 'D:\\Bibliotheken\\Desktop\\Skripte\\ginos-walking-pad\\walking-pad-obs-widget'],
+a = Analysis(['__main__.py'],
+             pathex=['D:\\Bibliotheken\\Desktop\\Skripte\\ginos-walking-pad\\walking-pad-obs-widget\\walking-pad-obs-widget\\Lib\\site-packages', 'D:\\Bibliotheken\\Desktop\\Skripte\\ginos-walking-pad\\walking-pad-obs-widget'],
              binaries=[],
              datas=[],
-             hiddenimports=[" d:; cd 'd:\\Bibliotheken\\Desktop\\Skripte\\ginos-walking-pad\\walking-pad-obs-widget'; & 'd:\\Bibliotheken\\Desktop\\Skripte\\ginos-walking-pad\\walking-pad-obs-widget\\ginos-walking-pad\\Scripts\\python.exe' 'c:\\Users\\timm_\\.vscode\\extensions\\ms-python.python-2021.4.765268190\\pythonFiles\\lib\\python\\debugpy\\launcher' '50439' '--' 'd:\\Bibliotheken\\Desktop\\Skripte\\ginos-walking-pad\\walking-pad-obs-widget\\__main__.py' miio"],
+             hiddenimports=['websockets.legacy.server'],
              hookspath=[],
              runtime_hooks=[],
              excludes=[],
