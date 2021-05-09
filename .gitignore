@@ -1,3 +1,4 @@
 ginos-walking-pad/
 .vscode/
 __pycache__/
+build/

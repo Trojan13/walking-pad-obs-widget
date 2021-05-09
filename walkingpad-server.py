@@ -1,10 +1,4 @@
 from miio import Walkingpad, DeviceException
-from miio.walkingpad import (
-    OperationMode,
-    OperationSensitivity,
-    WalkingpadException,
-    WalkingpadStatus,
-)
 import configparser
 import asyncio
 import websockets
@@ -17,7 +11,7 @@ parser.read_file(open(r'config.txt'))
 CONFIG_TOKEN = parser.get('walking-pad-twitch', 'token')
 CONFIG_IP = parser.get('walking-pad-twitch', 'ip')
 print("Config loaded...")
-print("Walkingpad connecing...")
+print("Walkingpad connecting...")
 walkingpad = Walkingpad(CONFIG_IP, CONFIG_TOKEN)
 
 
